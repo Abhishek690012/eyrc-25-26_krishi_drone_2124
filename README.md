@@ -15,7 +15,7 @@ The challenge will be divided into two phases:
 - Joel Siby
 
 ## People Working on this theme 
--Abhishek Singh 
--Yash Shah
--Aksahy Dodla
--Mahin Sanklecha
+- Abhishek Singh 
+- Yash Shah
+- Aksahy Dodla
+- Mahin Sanklecha
