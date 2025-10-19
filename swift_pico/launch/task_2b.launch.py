@@ -22,7 +22,7 @@ def generate_launch_description():
         launch_arguments={'gz_args': PathJoinSubstitution([
             pkg_project_gazebo,
             'worlds',
-            'swift_pico.sdf -r'
+            'swift_pico_2b.sdf -r'
         ])}.items(),
     )
     
