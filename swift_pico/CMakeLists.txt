@@ -46,6 +46,9 @@ install(PROGRAMS
   src/pico_controller_LQR.py
   src/pico_controller_PID.cpp
   src/pico_controller_LQR.cpp
+  src/pico_server.py
+  src/pico_client.py
+  src/waypoint_service.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

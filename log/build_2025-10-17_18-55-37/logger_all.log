@@ -1,0 +1,319 @@
+[0.125s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.125s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7719ae7790f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7719ae702590>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7719ae702590>>, mixin_verb=('build',))
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.306s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yash-shah/eyrc-25-26_krishi_drone_2124'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'swift_pico' with type 'ros.ament_cmake' and name 'swift_pico'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'swift_pico_description' with type 'ros.ament_cmake' and name 'swift_pico_description'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'waypoint_navigation' with type 'ros.ament_cmake' and name 'waypoint_navigation'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.383s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/yash-shah/pico_ws/install
+[0.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yash-shah/turtlesim_ws/install
+[0.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/yash-shah/turtlebot3_ws/install
+[0.386s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'swift_pico_description' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'swift_pico_description' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'swift_pico_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'swift_pico_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'swift_pico_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'swift_pico_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'swift_pico_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'swift_pico_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'swift_pico_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'swift_pico_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description', 'merge_install': False, 'path': '/home/yash-shah/eyrc-25-26_krishi_drone_2124/swift_pico_description', 'symlink_install': False, 'test_result_base': None}
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'waypoint_navigation' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'waypoint_navigation' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'waypoint_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'waypoint_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'waypoint_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'waypoint_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'waypoint_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'waypoint_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'waypoint_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'waypoint_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation', 'merge_install': False, 'path': '/home/yash-shah/eyrc-25-26_krishi_drone_2124/waypoint_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'swift_pico' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'swift_pico' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'swift_pico' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'swift_pico' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'swift_pico' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'swift_pico' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'swift_pico' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'swift_pico' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'swift_pico' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'swift_pico' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico', 'merge_install': False, 'path': '/home/yash-shah/eyrc-25-26_krishi_drone_2124/swift_pico', 'symlink_install': False, 'test_result_base': None}
+[0.432s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.433s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/swift_pico_description' with build type 'ament_cmake'
+[0.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/swift_pico_description'
+[0.436s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/waypoint_navigation' with build type 'ament_cmake'
+[0.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/waypoint_navigation'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description -- -j12 -l12
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation -- -j12 -l12
+[0.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description -- -j12 -l12
+[0.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description
+[0.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swift_pico_description)
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description
+[0.573s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description' for CMake module files
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description' for CMake config files
+[0.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('swift_pico_description', 'cmake_prefix_path')
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/hook/cmake_prefix_path.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/hook/cmake_prefix_path.dsv'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/hook/cmake_prefix_path.sh'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/bin'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/lib/pkgconfig/swift_pico_description.pc'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/lib/python3.10/site-packages'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/bin'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.dsv'
+[0.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.sh'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.bash'
+[0.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.zsh'
+[0.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/colcon-core/packages/swift_pico_description)
+[0.595s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swift_pico_description)
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description' for CMake module files
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description' for CMake config files
+[0.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('swift_pico_description', 'cmake_prefix_path')
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/hook/cmake_prefix_path.ps1'
+[0.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/hook/cmake_prefix_path.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/hook/cmake_prefix_path.sh'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/bin'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/lib/pkgconfig/swift_pico_description.pc'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/lib/python3.10/site-packages'
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/bin'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.dsv'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.sh'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.bash'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.zsh'
+[0.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/colcon-core/packages/swift_pico_description)
+[0.612s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/swift_pico' with build type 'ament_cmake'
+[0.612s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/swift_pico'
+[0.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico': AMENT_PREFIX_PATH=/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description:/home/yash-shah/pico_ws/install/whycon:/home/yash-shah/pico_ws/install/waypoint_navigation:/home/yash-shah/pico_ws/install/swift_pico:/home/yash-shah/pico_ws/install/swift_pico_description:/home/yash-shah/pico_ws/install/rotors_swift_interface:/home/yash-shah/pico_ws/install/swift_msgs:/home/yash-shah/pico_ws/install/rotors_swift_gazebo:/home/yash-shah/pico_ws/install/rotors_swift_description:/home/yash-shah/pico_ws/install/rotors_control:/home/yash-shah/pico_ws/install/pid_tune:/home/yash-shah/pico_ws/install/mav_comm:/home/yash-shah/pico_ws/install/mav_system_msgs:/home/yash-shah/pico_ws/install/mav_state_machine_msgs:/home/yash-shah/pico_ws/install/mav_planning_msgs:/home/yash-shah/pico_ws/install/mav_msgs:/home/yash-shah/pico_ws/install/error_msg:/home/yash-shah/pico_ws/install/controller_msg:/home/yash-shah/turtlesim_ws/install/turtlesim:/home/yash-shah/turtlebot3_ws/install/turtlebot3:/home/yash-shah/turtlebot3_ws/install/turtlebot3_simulations:/home/yash-shah/turtlebot3_ws/install/turtlebot3_bringup:/home/yash-shah/turtlebot3_ws/install/turtlebot3_node:/home/yash-shah/turtlebot3_ws/install/turtlebot3_navigation2:/home/yash-shah/turtlebot3_ws/install/turtlebot3_fake_node:/home/yash-shah/turtlebot3_ws/install/turtlebot3_msgs:/home/yash-shah/turtlebot3_ws/install/turtlebot3_gazebo:/home/yash-shah/turtlebot3_ws/install/turtlebot3_description:/home/yash-shah/turtlebot3_ws/install/turtlebot3_cartographer:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico -- -j12 -l12
+[0.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico' returned '0': AMENT_PREFIX_PATH=/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description:/home/yash-shah/pico_ws/install/whycon:/home/yash-shah/pico_ws/install/waypoint_navigation:/home/yash-shah/pico_ws/install/swift_pico:/home/yash-shah/pico_ws/install/swift_pico_description:/home/yash-shah/pico_ws/install/rotors_swift_interface:/home/yash-shah/pico_ws/install/swift_msgs:/home/yash-shah/pico_ws/install/rotors_swift_gazebo:/home/yash-shah/pico_ws/install/rotors_swift_description:/home/yash-shah/pico_ws/install/rotors_control:/home/yash-shah/pico_ws/install/pid_tune:/home/yash-shah/pico_ws/install/mav_comm:/home/yash-shah/pico_ws/install/mav_system_msgs:/home/yash-shah/pico_ws/install/mav_state_machine_msgs:/home/yash-shah/pico_ws/install/mav_planning_msgs:/home/yash-shah/pico_ws/install/mav_msgs:/home/yash-shah/pico_ws/install/error_msg:/home/yash-shah/pico_ws/install/controller_msg:/home/yash-shah/turtlesim_ws/install/turtlesim:/home/yash-shah/turtlebot3_ws/install/turtlebot3:/home/yash-shah/turtlebot3_ws/install/turtlebot3_simulations:/home/yash-shah/turtlebot3_ws/install/turtlebot3_bringup:/home/yash-shah/turtlebot3_ws/install/turtlebot3_node:/home/yash-shah/turtlebot3_ws/install/turtlebot3_navigation2:/home/yash-shah/turtlebot3_ws/install/turtlebot3_fake_node:/home/yash-shah/turtlebot3_ws/install/turtlebot3_msgs:/home/yash-shah/turtlebot3_ws/install/turtlebot3_gazebo:/home/yash-shah/turtlebot3_ws/install/turtlebot3_description:/home/yash-shah/turtlebot3_ws/install/turtlebot3_cartographer:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico -- -j12 -l12
+[0.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico': AMENT_PREFIX_PATH=/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description:/home/yash-shah/pico_ws/install/whycon:/home/yash-shah/pico_ws/install/waypoint_navigation:/home/yash-shah/pico_ws/install/swift_pico:/home/yash-shah/pico_ws/install/swift_pico_description:/home/yash-shah/pico_ws/install/rotors_swift_interface:/home/yash-shah/pico_ws/install/swift_msgs:/home/yash-shah/pico_ws/install/rotors_swift_gazebo:/home/yash-shah/pico_ws/install/rotors_swift_description:/home/yash-shah/pico_ws/install/rotors_control:/home/yash-shah/pico_ws/install/pid_tune:/home/yash-shah/pico_ws/install/mav_comm:/home/yash-shah/pico_ws/install/mav_system_msgs:/home/yash-shah/pico_ws/install/mav_state_machine_msgs:/home/yash-shah/pico_ws/install/mav_planning_msgs:/home/yash-shah/pico_ws/install/mav_msgs:/home/yash-shah/pico_ws/install/error_msg:/home/yash-shah/pico_ws/install/controller_msg:/home/yash-shah/turtlesim_ws/install/turtlesim:/home/yash-shah/turtlebot3_ws/install/turtlebot3:/home/yash-shah/turtlebot3_ws/install/turtlebot3_simulations:/home/yash-shah/turtlebot3_ws/install/turtlebot3_bringup:/home/yash-shah/turtlebot3_ws/install/turtlebot3_node:/home/yash-shah/turtlebot3_ws/install/turtlebot3_navigation2:/home/yash-shah/turtlebot3_ws/install/turtlebot3_fake_node:/home/yash-shah/turtlebot3_ws/install/turtlebot3_msgs:/home/yash-shah/turtlebot3_ws/install/turtlebot3_gazebo:/home/yash-shah/turtlebot3_ws/install/turtlebot3_description:/home/yash-shah/turtlebot3_ws/install/turtlebot3_cartographer:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico
+[0.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swift_pico)
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico' for CMake module files
+[0.757s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico' for CMake config files
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico' returned '0': AMENT_PREFIX_PATH=/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description:/home/yash-shah/pico_ws/install/whycon:/home/yash-shah/pico_ws/install/waypoint_navigation:/home/yash-shah/pico_ws/install/swift_pico:/home/yash-shah/pico_ws/install/swift_pico_description:/home/yash-shah/pico_ws/install/rotors_swift_interface:/home/yash-shah/pico_ws/install/swift_msgs:/home/yash-shah/pico_ws/install/rotors_swift_gazebo:/home/yash-shah/pico_ws/install/rotors_swift_description:/home/yash-shah/pico_ws/install/rotors_control:/home/yash-shah/pico_ws/install/pid_tune:/home/yash-shah/pico_ws/install/mav_comm:/home/yash-shah/pico_ws/install/mav_system_msgs:/home/yash-shah/pico_ws/install/mav_state_machine_msgs:/home/yash-shah/pico_ws/install/mav_planning_msgs:/home/yash-shah/pico_ws/install/mav_msgs:/home/yash-shah/pico_ws/install/error_msg:/home/yash-shah/pico_ws/install/controller_msg:/home/yash-shah/turtlesim_ws/install/turtlesim:/home/yash-shah/turtlebot3_ws/install/turtlebot3:/home/yash-shah/turtlebot3_ws/install/turtlebot3_simulations:/home/yash-shah/turtlebot3_ws/install/turtlebot3_bringup:/home/yash-shah/turtlebot3_ws/install/turtlebot3_node:/home/yash-shah/turtlebot3_ws/install/turtlebot3_navigation2:/home/yash-shah/turtlebot3_ws/install/turtlebot3_fake_node:/home/yash-shah/turtlebot3_ws/install/turtlebot3_msgs:/home/yash-shah/turtlebot3_ws/install/turtlebot3_gazebo:/home/yash-shah/turtlebot3_ws/install/turtlebot3_description:/home/yash-shah/turtlebot3_ws/install/turtlebot3_cartographer:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yash-shah/turtlebot3_ws/install/dynamixel_sdk:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico
+[0.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('swift_pico', 'cmake_prefix_path')
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/hook/cmake_prefix_path.ps1'
+[0.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/hook/cmake_prefix_path.dsv'
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/hook/cmake_prefix_path.sh'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/lib'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/bin'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/lib/pkgconfig/swift_pico.pc'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/lib/python3.10/site-packages'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/bin'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/package.ps1'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/package.dsv'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/package.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/package.bash'
+[0.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/package.zsh'
+[0.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/colcon-core/packages/swift_pico)
+[0.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swift_pico)
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico' for CMake module files
+[0.777s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico' for CMake config files
+[0.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('swift_pico', 'cmake_prefix_path')
+[0.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/hook/cmake_prefix_path.ps1'
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/hook/cmake_prefix_path.dsv'
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/hook/cmake_prefix_path.sh'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/lib'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/bin'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/lib/pkgconfig/swift_pico.pc'
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/lib/python3.10/site-packages'
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/bin'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/package.ps1'
+[0.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/package.dsv'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/package.sh'
+[0.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/package.bash'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/swift_pico/package.zsh'
+[0.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico/share/colcon-core/packages/swift_pico)
+[1.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation -- -j12 -l12
+[1.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation
+[1.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_navigation)
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation' for CMake module files
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation' for CMake config files
+[1.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_navigation', 'cmake_prefix_path')
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/cmake_prefix_path.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/cmake_prefix_path.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/cmake_prefix_path.sh'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib'
+[1.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_navigation', 'ld_library_path_lib')
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/ld_library_path_lib.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/ld_library_path_lib.dsv'
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/ld_library_path_lib.sh'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/bin'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/pkgconfig/waypoint_navigation.pc'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/python3.10/site-packages'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/bin'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.sh'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.bash'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.zsh'
+[1.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/colcon-core/packages/waypoint_navigation)
+[1.146s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_navigation)
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation' for CMake module files
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation' for CMake config files
+[1.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_navigation', 'cmake_prefix_path')
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/cmake_prefix_path.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/cmake_prefix_path.dsv'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/cmake_prefix_path.sh'
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib'
+[1.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_navigation', 'ld_library_path_lib')
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/ld_library_path_lib.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/ld_library_path_lib.dsv'
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/hook/ld_library_path_lib.sh'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/bin'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/pkgconfig/waypoint_navigation.pc'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/python3.10/site-packages'
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/bin'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.sh'
+[1.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.bash'
+[1.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.zsh'
+[1.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/colcon-core/packages/waypoint_navigation)
+[1.154s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.155s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.161s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.175s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/local_setup.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/_local_setup_util_ps1.py'
+[1.181s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/setup.ps1'
+[1.184s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/local_setup.sh'
+[1.185s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/_local_setup_util_sh.py'
+[1.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/setup.sh'
+[1.189s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/local_setup.bash'
+[1.190s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/setup.bash'
+[1.193s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/local_setup.zsh'
+[1.194s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/setup.zsh'

@@ -1,0 +1,8 @@
+# Goal
+geometry_msgs/Pose waypoint
+---
+# Result
+int32 hov_time
+---
+# Feedback = Current position
+geometry_msgs/PoseStamped current_waypoint

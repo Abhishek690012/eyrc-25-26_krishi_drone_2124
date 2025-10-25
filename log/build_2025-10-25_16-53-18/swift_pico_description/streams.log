@@ -1,0 +1,67 @@
+[0.026s] Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description -- -j12 -l12
+[0.088s] Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description -- -j12 -l12
+[0.105s] Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description
+[0.119s] -- Install configuration: ""
+[0.119s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models
+[0.119s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena
+[0.119s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena/meshes
+[0.120s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena/meshes/Krishi Drone Gazebo model image texture.png
+[0.120s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena/meshes/arena.dae
+[0.120s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena/model.sdf
+[0.120s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena/model.config
+[0.121s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3
+[0.121s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3/meshes
+[0.121s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3/meshes/Krishi Drone Gazebo model image texture.png
+[0.121s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3/meshes/package.dae
+[0.121s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3/model.sdf
+[0.121s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3/model.config
+[0.122s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico
+[0.122s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes
+[0.122s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/cropped-image.png
+[0.122s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/propeller_ccw.dae
+[0.122s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m2_link.dae
+[0.122s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m4_link.dae
+[0.123s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/whycon2.mtl
+[0.123s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/whycon2.obj
+[0.123s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/propeller_cw.dae
+[0.124s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m1_link.dae
+[0.124s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m3_link.dae
+[0.124s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/textures
+[0.124s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/textures/whycon_marker.png
+[0.125s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/base_link.dae
+[0.126s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/swift_pico.sdf
+[0.126s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/model.config
+[0.126s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/materials
+[0.126s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/materials/scripts
+[0.126s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/materials/scripts/whycon_marker.material
+[0.126s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/whycon_marker_file.xacro
+[0.126s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/textures
+[0.126s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/textures/whycon_marker.png
+[0.126s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1
+[0.127s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1/meshes
+[0.127s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1/meshes/Krishi Drone Gazebo model image texture.png
+[0.127s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1/meshes/package.dae
+[0.127s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1/model.sdf
+[0.127s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1/model.config
+[0.128s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2
+[0.128s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2/meshes
+[0.128s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2/meshes/Krishi Drone Gazebo model image texture.png
+[0.128s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2/meshes/package.dae
+[0.128s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2/model.sdf
+[0.128s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2/model.config
+[0.128s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/ament_index/resource_index/package_run_dependencies/swift_pico_description
+[0.129s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/ament_index/resource_index/parent_prefix_path/swift_pico_description
+[0.129s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/environment/ament_prefix_path.sh
+[0.129s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/environment/ament_prefix_path.dsv
+[0.129s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/environment/path.sh
+[0.130s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/environment/path.dsv
+[0.130s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/local_setup.bash
+[0.130s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/local_setup.sh
+[0.130s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/local_setup.zsh
+[0.130s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/local_setup.dsv
+[0.130s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.dsv
+[0.130s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/ament_index/resource_index/packages/swift_pico_description
+[0.130s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/cmake/swift_pico_descriptionConfig.cmake
+[0.130s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/cmake/swift_pico_descriptionConfig-version.cmake
+[0.130s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.xml
+[0.131s] Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description
