@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/swift_pico_description
+-- Install configuration: ""
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena/meshes
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena/meshes/Krishi Drone Gazebo model image texture.png
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena/meshes/arena.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena/model.sdf
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/arena/model.config
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3/meshes
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3/meshes/Krishi Drone Gazebo model image texture.png
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3/meshes/package.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3/model.sdf
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_3/model.config
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/cropped-image.png
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/propeller_ccw.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m2_link.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m4_link.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/whycon2.mtl
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/whycon2.obj
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/propeller_cw.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m1_link.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/m3_link.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/textures
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/textures/whycon_marker.png
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/meshes/base_link.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/swift_pico.sdf
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/model.config
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/materials
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/materials/scripts
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/materials/scripts/whycon_marker.material
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/whycon_marker_file.xacro
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/textures
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/swift_pico/textures/whycon_marker.png
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1/meshes
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1/meshes/Krishi Drone Gazebo model image texture.png
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1/meshes/package.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1/model.sdf
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_1/model.config
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2/meshes
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2/meshes/Krishi Drone Gazebo model image texture.png
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2/meshes/package.dae
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2/model.sdf
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/models/package_2/model.config
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/ament_index/resource_index/package_run_dependencies/swift_pico_description
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/ament_index/resource_index/parent_prefix_path/swift_pico_description
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/environment/ament_prefix_path.sh
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/environment/ament_prefix_path.dsv
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/environment/path.sh
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/environment/path.dsv
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/local_setup.bash
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/local_setup.sh
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/local_setup.zsh
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/local_setup.dsv
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.dsv
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/ament_index/resource_index/packages/swift_pico_description
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/cmake/swift_pico_descriptionConfig.cmake
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/cmake/swift_pico_descriptionConfig-version.cmake
+-- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/swift_pico_description/share/swift_pico_description/package.xml

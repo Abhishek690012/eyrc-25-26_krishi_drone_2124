@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-527e8ba21a1dc9296dd7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "waypoint_navigation__py",
+					"jsonFile" : "directory-waypoint_navigation__py-51a4e098134bf01b4c3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation/waypoint_navigation__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "waypoint_navigation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_waypoint_navigation_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_waypoint_navigation_egg-2f3af4d9232dfefd71cb.json",
+					"name" : "ament_cmake_python_build_waypoint_navigation_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_waypoint_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_waypoint_navigation-dad7b13cb33b28216d48.json",
+					"name" : "ament_cmake_python_copy_waypoint_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-09fb1cdae8c0204ab2c1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation-3321c112e34f99308312.json",
+					"name" : "waypoint_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__cpp-8c4b8acead0020a3964a.json",
+					"name" : "waypoint_navigation__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "waypoint_navigation__py::@761f16ece8cb2251d250",
+					"jsonFile" : "target-waypoint_navigation__py-31d91425e554345b5a19.json",
+					"name" : "waypoint_navigation__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_generator_c-ffd0954cd6e926ef8d74.json",
+					"name" : "waypoint_navigation__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_generator_py-5c1ca59509cdfd0992c0.json",
+					"name" : "waypoint_navigation__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_c-404b10963970d332383a.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_c__pyext-c366c9a408ef4ec2cbdc.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_cpp-b2330650493c34bc9d86.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_fastrtps_c-d394a5c13f89f80a5a1d.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext-4649d5f1b5d410f6c638.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_fastrtps_cpp-dc2166922bb20202a6a5.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_introspection_c-6cd23c80b535327e88a1.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_introspection_c__pyext-ab88d2f05c2def8dfc54.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation__rosidl_typesupport_introspection_cpp-5a485d708ea0b4633ad4.json",
+					"name" : "waypoint_navigation__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_navigation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_navigation_uninstall-ef6f69a823ca1a5e7bd8.json",
+					"name" : "waypoint_navigation_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation",
+		"source" : "/home/yash-shah/eyrc-25-26_krishi_drone_2124/waypoint_navigation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

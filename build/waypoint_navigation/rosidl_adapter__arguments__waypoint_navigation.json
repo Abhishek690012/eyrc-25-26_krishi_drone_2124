@@ -1,0 +1,7 @@
+{
+  "package_name": "waypoint_navigation",
+  "non_idl_tuples": [
+    "/home/yash-shah/eyrc-25-26_krishi_drone_2124/waypoint_navigation:action/NavToWaypoint.action",
+    "/home/yash-shah/eyrc-25-26_krishi_drone_2124/waypoint_navigation:srv/GetWaypoints.srv"
+  ]
+}

@@ -1,0 +1,281 @@
+[0.019s] Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/yash-shah/eyrc-25-26_krishi_drone_2124/waypoint_navigation -DCMAKE_INSTALL_PREFIX=/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation
+[0.220s] -- The C compiler identification is GNU 11.4.0
+[0.372s] -- The CXX compiler identification is GNU 11.4.0
+[0.390s] -- Detecting C compiler ABI info
+[0.506s] -- Detecting C compiler ABI info - done
+[0.518s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.518s] -- Detecting C compile features
+[0.519s] -- Detecting C compile features - done
+[0.525s] -- Detecting CXX compiler ABI info
+[0.675s] -- Detecting CXX compiler ABI info - done
+[0.690s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.691s] -- Detecting CXX compile features
+[0.692s] -- Detecting CXX compile features - done
+[0.711s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.206s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.516s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.538s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.560s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.741s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.388s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.844s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.367s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.404s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.409s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.453s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.453s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.453s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.453s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.483s] -- Found PythonExtra: .so  
+[3.607s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.658s] -- Added test 'lint_cmake' to check CMake code style
+[3.661s] -- Added test 'xmllint' to check XML markup files
+[3.664s] -- Configuring done
+[3.714s] -- Generating done
+[3.732s] -- Build files have been written to: /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation
+[3.745s] Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/yash-shah/eyrc-25-26_krishi_drone_2124/waypoint_navigation -DCMAKE_INSTALL_PREFIX=/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation
+[3.747s] Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation -- -j12 -l12
+[3.809s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.825s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.842s] [  5%] Built target ament_cmake_python_copy_waypoint_navigation
+[4.267s] running egg_info
+[4.268s] creating waypoint_navigation.egg-info
+[4.268s] writing waypoint_navigation.egg-info/PKG-INFO
+[4.269s] writing dependency_links to waypoint_navigation.egg-info/dependency_links.txt
+[4.269s] writing top-level names to waypoint_navigation.egg-info/top_level.txt
+[4.269s] writing manifest file 'waypoint_navigation.egg-info/SOURCES.txt'
+[4.273s] reading manifest file 'waypoint_navigation.egg-info/SOURCES.txt'
+[4.273s] writing manifest file 'waypoint_navigation.egg-info/SOURCES.txt'
+[4.313s] [  5%] Built target ament_cmake_python_build_waypoint_navigation_egg
+[4.649s] [  7%] [32mBuilding C object CMakeFiles/waypoint_navigation__rosidl_generator_c.dir/rosidl_generator_c/waypoint_navigation/action/detail/nav_to_waypoint__functions.c.o[0m
+[4.649s] [ 10%] [32mBuilding C object CMakeFiles/waypoint_navigation__rosidl_generator_c.dir/rosidl_generator_c/waypoint_navigation/srv/detail/get_waypoints__functions.c.o[0m
+[4.673s] [ 10%] Built target waypoint_navigation__cpp
+[4.691s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.692s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.692s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.937s] [ 20%] [32m[1mLinking C shared library libwaypoint_navigation__rosidl_generator_c.so[0m
+[5.008s] [ 20%] Built target waypoint_navigation__rosidl_generator_c
+[5.027s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.031s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.031s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.246s] [ 30%] [32mBuilding CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/waypoint_navigation/srv/get_waypoints__type_support.cpp.o[0m
+[5.250s] [ 33%] [32mBuilding CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/waypoint_navigation/action/nav_to_waypoint__type_support.cpp.o[0m
+[5.353s] [ 35%] [32mBuilding CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/waypoint_navigation/action/detail/nav_to_waypoint__type_support.cpp.o[0m
+[5.359s] [ 38%] [32mBuilding CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/waypoint_navigation/srv/detail/get_waypoints__type_support.cpp.o[0m
+[5.471s] [ 41%] [32mBuilding CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/waypoint_navigation/action/detail/dds_fastrtps/nav_to_waypoint__type_support.cpp.o[0m
+[5.477s] [ 43%] [32mBuilding CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/waypoint_navigation/srv/detail/dds_fastrtps/get_waypoints__type_support.cpp.o[0m
+[5.838s] [ 46%] [32mBuilding CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_c.dir/rosidl_typesupport_c/waypoint_navigation/srv/get_waypoints__type_support.cpp.o[0m
+[5.839s] [ 48%] [32mBuilding CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_c.dir/rosidl_typesupport_c/waypoint_navigation/action/nav_to_waypoint__type_support.cpp.o[0m
+[5.875s] [ 51%] [32mBuilding CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/waypoint_navigation/action/detail/nav_to_waypoint__type_support_c.cpp.o[0m
+[5.884s] [ 53%] [32mBuilding CXX object CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/waypoint_navigation/srv/detail/get_waypoints__type_support_c.cpp.o[0m
+[5.971s] [ 56%] [32m[1mLinking CXX shared library libwaypoint_navigation__rosidl_typesupport_c.so[0m
+[6.021s] [ 58%] [32mBuilding C object CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/waypoint_navigation/srv/detail/get_waypoints__type_support.c.o[0m
+[6.024s] [ 61%] [32mBuilding C object CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/waypoint_navigation/action/detail/nav_to_waypoint__type_support.c.o[0m
+[6.077s] [ 61%] Built target waypoint_navigation__rosidl_typesupport_c
+[6.105s] [ 64%] [32m[1mLinking CXX shared library libwaypoint_navigation__rosidl_typesupport_cpp.so[0m
+[6.140s] [ 66%] [32m[1mLinking C shared library libwaypoint_navigation__rosidl_typesupport_introspection_c.so[0m
+[6.185s] [ 66%] Built target waypoint_navigation__rosidl_typesupport_cpp
+[6.223s] [ 66%] Built target waypoint_navigation__rosidl_typesupport_introspection_c
+[6.404s] [ 69%] [32m[1mLinking CXX shared library libwaypoint_navigation__rosidl_typesupport_introspection_cpp.so[0m
+[6.526s] [ 69%] Built target waypoint_navigation__rosidl_typesupport_introspection_cpp
+[6.561s] [ 71%] [32m[1mLinking CXX shared library libwaypoint_navigation__rosidl_typesupport_fastrtps_c.so[0m
+[6.627s] [ 74%] [32m[1mLinking CXX shared library libwaypoint_navigation__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.667s] [ 74%] Built target waypoint_navigation__rosidl_typesupport_fastrtps_c
+[6.725s] [ 74%] Built target waypoint_navigation__rosidl_typesupport_fastrtps_cpp
+[6.753s] [ 74%] Built target waypoint_navigation
+[6.780s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.775s] [ 76%] Built target waypoint_navigation__py
+[7.805s] [ 79%] [32mBuilding C object CMakeFiles/waypoint_navigation__rosidl_generator_py.dir/rosidl_generator_py/waypoint_navigation/srv/_get_waypoints_s.c.o[0m
+[7.806s] [ 82%] [32mBuilding C object CMakeFiles/waypoint_navigation__rosidl_generator_py.dir/rosidl_generator_py/waypoint_navigation/action/_nav_to_waypoint_s.c.o[0m
+[8.022s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/waypoint_navigation/libwaypoint_navigation__rosidl_generator_py.so[0m
+[8.083s] [ 84%] Built target waypoint_navigation__rosidl_generator_py
+[8.112s] [ 87%] [32mBuilding C object CMakeFiles/waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.114s] [ 89%] [32mBuilding C object CMakeFiles/waypoint_navigation__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.114s] [ 92%] [32mBuilding C object CMakeFiles/waypoint_navigation__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_c.c.o[0m
+[8.278s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.280s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.281s] [100%] [32m[1mLinking C shared library rosidl_generator_py/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.342s] [100%] Built target waypoint_navigation__rosidl_typesupport_c__pyext
+[8.346s] [100%] Built target waypoint_navigation__rosidl_typesupport_introspection_c__pyext
+[8.348s] [100%] Built target waypoint_navigation__rosidl_typesupport_fastrtps_c__pyext
+[8.364s] Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation -- -j12 -l12
+[8.366s] Invoking command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation
+[8.378s] -- Install configuration: ""
+[8.378s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/ament_index/resource_index/rosidl_interfaces/waypoint_navigation
+[8.378s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[8.378s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.h
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__struct.h
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__functions.c
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__functions.h
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/get_waypoints.h
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_generator_c__visibility_control.h
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__struct.h
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.h
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__functions.h
+[8.379s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__functions.c
+[8.380s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/nav_to_waypoint.h
+[8.380s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/environment/library_path.sh
+[8.380s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/environment/library_path.dsv
+[8.380s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_generator_c.so
+[8.380s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_generator_c.so" to ""
+[8.380s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[8.380s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[8.380s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[8.380s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_fastrtps_c.h
+[8.380s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg
+[8.380s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.381s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[8.381s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[8.381s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_fastrtps_c.h
+[8.381s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_fastrtps_c.so
+[8.381s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_fastrtps_c.so" to ""
+[8.381s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[8.381s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[8.381s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[8.381s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_introspection_c.h
+[8.381s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.c
+[8.381s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg
+[8.381s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.381s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[8.381s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[8.382s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_introspection_c.h
+[8.382s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.c
+[8.382s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_introspection_c.so
+[8.382s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_introspection_c.so" to ""
+[8.382s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_c.so
+[8.382s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_c.so" to ""
+[8.382s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[8.382s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[8.382s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[8.382s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__struct.hpp
+[8.382s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__traits.hpp
+[8.383s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__builder.hpp
+[8.383s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.hpp
+[8.383s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/get_waypoints.hpp
+[8.383s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg
+[8.383s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.383s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[8.383s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[8.383s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.hpp
+[8.383s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__struct.hpp
+[8.383s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__traits.hpp
+[8.383s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__builder.hpp
+[8.383s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/nav_to_waypoint.hpp
+[8.383s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[8.383s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[8.383s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[8.383s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/dds_fastrtps
+[8.384s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[8.384s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg
+[8.384s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.384s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[8.384s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[8.384s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/dds_fastrtps
+[8.384s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[8.384s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_fastrtps_cpp.so
+[8.384s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.385s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation
+[8.385s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv
+[8.385s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail
+[8.385s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__rosidl_typesupport_introspection_cpp.hpp
+[8.385s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/srv/detail/get_waypoints__type_support.cpp
+[8.385s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action
+[8.385s] -- Up-to-date: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail
+[8.385s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[8.386s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/include/waypoint_navigation/waypoint_navigation/action/detail/nav_to_waypoint__type_support.cpp
+[8.386s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_introspection_cpp.so
+[8.386s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_introspection_cpp.so" to ""
+[8.386s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_cpp.so
+[8.386s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_typesupport_cpp.so" to ""
+[8.386s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/environment/pythonpath.sh
+[8.386s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/environment/pythonpath.dsv
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/_get_waypoints.py
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/__init__.py
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/_get_waypoints_s.c
+[8.387s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/__init__.py
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/__init__.py
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/_nav_to_waypoint.py
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/_nav_to_waypoint_s.c
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/libwaypoint_navigation__rosidl_generator_py.so
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_introspection_c.c
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/_waypoint_navigation_s.ep.rosidl_typesupport_c.c
+[8.388s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.445s] Listing '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation'...
+[8.445s] Compiling '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/__init__.py'...
+[8.445s] Listing '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action'...
+[8.445s] Compiling '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/__init__.py'...
+[8.445s] Compiling '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/action/_nav_to_waypoint.py'...
+[8.445s] Listing '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv'...
+[8.445s] Compiling '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/__init__.py'...
+[8.445s] Compiling '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/srv/_get_waypoints.py'...
+[8.450s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.451s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.451s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.451s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.451s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.451s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/local/lib/python3.10/dist-packages/waypoint_navigation/waypoint_navigation_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.451s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_generator_py.so
+[8.452s] -- Set runtime path of "/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/lib/libwaypoint_navigation__rosidl_generator_py.so" to ""
+[8.452s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/action/NavToWaypoint.idl
+[8.452s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints.idl
+[8.452s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/action/NavToWaypoint.action
+[8.452s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints.srv
+[8.452s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints_Request.msg
+[8.452s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/srv/GetWaypoints_Response.msg
+[8.452s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/ament_index/resource_index/package_run_dependencies/waypoint_navigation
+[8.452s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/ament_index/resource_index/parent_prefix_path/waypoint_navigation
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/environment/ament_prefix_path.sh
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/environment/ament_prefix_path.dsv
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/environment/path.sh
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/environment/path.dsv
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/local_setup.bash
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/local_setup.sh
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/local_setup.zsh
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/local_setup.dsv
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.dsv
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/ament_index/resource_index/packages/waypoint_navigation
+[8.453s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_cExport.cmake
+[8.454s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_cExport-noconfig.cmake
+[8.454s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cExport.cmake
+[8.454s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.454s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cExport.cmake
+[8.454s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.454s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cExport.cmake
+[8.454s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cExport-noconfig.cmake
+[8.454s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_cppExport.cmake
+[8.454s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.455s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.455s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cppExport.cmake
+[8.455s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.455s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cppExport.cmake
+[8.455s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigation__rosidl_typesupport_cppExport-noconfig.cmake
+[8.455s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_pyExport.cmake
+[8.455s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/export_waypoint_navigation__rosidl_generator_pyExport-noconfig.cmake
+[8.455s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake-extras.cmake
+[8.455s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.455s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.456s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_libraries-extras.cmake
+[8.456s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/ament_cmake_export_targets-extras.cmake
+[8.456s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.456s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.456s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigationConfig.cmake
+[8.456s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/cmake/waypoint_navigationConfig-version.cmake
+[8.456s] -- Installing: /home/yash-shah/eyrc-25-26_krishi_drone_2124/install/waypoint_navigation/share/waypoint_navigation/package.xml
+[8.459s] Invoked command in '/home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yash-shah/turtlesim_ws/install/kd_task_1b:/home/yash-shah/turtlebot3_ws/install/turtlebot3_teleop:/home/yash-shah/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/yash-shah/eyrc-25-26_krishi_drone_2124/build/waypoint_navigation

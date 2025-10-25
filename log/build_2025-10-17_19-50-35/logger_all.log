@@ -1,0 +1,156 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'swift_msgs']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['swift_msgs'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7966a4879120>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7966a48025c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7966a48025c0>>, mixin_verb=('build',))
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.307s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yash-shah/eyrc-25-26_krishi_drone_2124'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(controller_tuner) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(mav_comm) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(rotors_simulator) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'swift_pico' with type 'ros.ament_cmake' and name 'swift_pico'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(swift_pico_description) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'swift_pico_description' with type 'ros.ament_cmake' and name 'swift_pico_description'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_navigation) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'waypoint_navigation' with type 'ros.ament_cmake' and name 'waypoint_navigation'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(whycon) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.357s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'swift_msgs' in --packages-select
+[0.380s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'swift_pico_description' in 'swift_pico_description'
+[0.380s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'waypoint_navigation' in 'waypoint_navigation'
+[0.380s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'swift_pico' in 'swift_pico'
+[0.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.385s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/yash-shah/eyrc-25-26_krishi_drone_2124/install
+[0.386s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/yash-shah/pico_ws/install
+[0.387s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yash-shah/turtlesim_ws/install
+[0.388s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/yash-shah/turtlebot3_ws/install
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.434s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.435s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.435s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.436s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.441s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.441s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.441s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.458s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.458s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/local_setup.ps1'
+[0.459s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/_local_setup_util_ps1.py'
+[0.461s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/setup.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/local_setup.sh'
+[0.465s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/_local_setup_util_sh.py'
+[0.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/setup.sh'
+[0.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/local_setup.bash'
+[0.469s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/setup.bash'
+[0.473s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/local_setup.zsh'
+[0.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yash-shah/eyrc-25-26_krishi_drone_2124/install/setup.zsh'
